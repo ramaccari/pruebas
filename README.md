@@ -1,7 +1,7 @@
 
 # Título
 
-Prueba funcionalidades de Java 8.
+Pruebas de varias API de Java.
 
 
 ## Descripción
