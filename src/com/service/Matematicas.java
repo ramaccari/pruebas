@@ -1,4 +1,4 @@
-package com.generalidades;
+package com.service;
 
 @FunctionalInterface
 public interface Matematicas {

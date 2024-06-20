@@ -1,5 +1,7 @@
 package com.generalidades;
 
+import com.service.Matematicas;
+
 public class TestFuntionalInterface {
 
 	public static void main(String[] args) {

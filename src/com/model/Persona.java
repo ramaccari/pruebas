@@ -1,6 +1,6 @@
 package com.model;
 
-import com.extensibilidad.InformacionObjeto;
+import com.service.InformacionObjeto;
 
 public class Persona implements InformacionObjeto {
 	
