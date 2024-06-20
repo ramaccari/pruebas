@@ -30,7 +30,7 @@ public class TestRemuveIf {
 		lista.forEach(System.out::println);
 		
 		// Elimino los mayores a 50 años
-		lista.removeIf(p -> p.getEdad() > 50);
+		lista.removeIf(p -> p.getEdad() >= 50);
 		System.out.println("Solo los menores de 50 años");
 		lista.forEach(System.out::println);
 	}
