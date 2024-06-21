@@ -9,17 +9,13 @@ import com.model.Persona;
 public class TestEstadísticas {
 
 	public static void main(String[] args) {
-		Persona p1 = new Persona();
-		p1.setNombre("Roberto");
+		Persona p1 = new Persona("Roberto");
 		p1.setEdad(61);
-		Persona p2 = new Persona();
-		p2.setNombre("Olga");
+		Persona p2 = new Persona("Olga");
 		p2.setEdad(57);
-		Persona p3 = new Persona();
-		p3.setNombre("Ana Luz");
+		Persona p3 = new Persona("Ana Luz");
 		p3.setEdad(31);
-		Persona p4 = new Persona();
-		p4.setNombre("Anabella");
+		Persona p4 = new Persona("Anabella");
 		p4.setEdad(27);
 		List<Persona> personas = Arrays.asList(p1, p2, p3, p4);
 		

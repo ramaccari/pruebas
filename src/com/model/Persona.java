@@ -5,6 +5,7 @@ import com.service.InformacionObjeto;
 public class Persona implements InformacionObjeto {
 	
 	private String nombre;
+	private String apellido;
 	private int edad;
 
 	public Persona() {
@@ -16,9 +17,10 @@ public class Persona implements InformacionObjeto {
 		this.nombre = nombre;
 	}
 
-	public Persona(String nombre, int edad) {
+	public Persona(String nombre, String apellido, int edad) {
 		super();
 		this.nombre = nombre;
+		this.apellido = apellido;
 		this.edad = edad;
 	}
 
@@ -38,8 +40,16 @@ public class Persona implements InformacionObjeto {
 		this.edad = edad;
 	}
 
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
 	@Override
 	public String toString() {
-		return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + "]";
 	}
 }
