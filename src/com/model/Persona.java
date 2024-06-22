@@ -52,4 +52,9 @@ public class Persona implements InformacionObjeto {
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + "]";
 	}
+	
+	public boolean estaJubilada() {
+		return this.edad > 64;
+	}
+	
 }
