@@ -1,10 +1,6 @@
-package com.model.factorias;
+package com.model;
 
-import com.model.IVANormal;
-import com.model.IVAReducido;
-import com.model.TipoIva;
-
-public class FactoriaIVA {
+public class IVAFactory {
 	
 	public static TipoIva getInstance(String tipo) {
 		TipoIva tipoIva;
